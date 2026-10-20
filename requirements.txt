@@ -1,0 +1,19 @@
+# FastAPI & Server
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+pydantic>=2.7.0
+
+# PDF & Image Processing
+pymupdf>=1.24.0
+pdfplumber>=0.11.0
+opencv-python-headless>=4.9.0
+numpy>=1.26.0
+pandas>=2.2.0
+Pillow>=10.3.0
+pytesseract>=0.3.10
+
+# Web Scraping & HTTP
+requests>=2.31.0
+playwright>=1.44.0
+playwright-stealth>=1.0.6

@@ -1,0 +1,26 @@
+# Virtual environments & Python cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Frontend & Static sites (deployed to Firebase Hosting separately)
+frontend/
+static_sites/
+ai_assistant/
+battery_osd/
+shared_page.html
+
+# Local runtime data & exports
+ai_crawler/data/documents/*
+ai_crawler/data/exports/*
+ai_crawler/data/screenshots/*
+
+# Git & IDE
+.git/
+.gitignore
+.vscode/
+.agents/
+*.md

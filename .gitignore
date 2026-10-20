@@ -1,0 +1,21 @@
+# Virtualenv & Python cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local runtime data & exports
+ai_crawler/data/documents/*
+!ai_crawler/data/documents/.gitkeep
+ai_crawler/data/exports/*
+!ai_crawler/data/exports/.gitkeep
+ai_crawler/data/screenshots/*
+!ai_crawler/data/screenshots/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+*.log
+.DS_Store
